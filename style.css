@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px 50px;
+}
+
+header {
+    background-color: #FF6B6B;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0 0 0 100px;
+}
+
+nav ul li {
+    margin: 0 30px;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+nav ul li a {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+
+}
+
+nav ul li a img {
+    display: inline-flex;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(45deg, #ffff004d, #efbac3);
+}
+
+.left1 {
+    flex: 1;
+    padding: 100px 30 100px 70px;
+
+}
+
+.left1 h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 100px 50px 20px 75px;
+}
+
+.left1 p {
+    padding: 50px 80px 50px 80px;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.right1 {
+    flex: 1;
+    background: url("pexels-robin-stickel-70497.jpg");
+    background-size: cover;
+}
+
+.content1 button {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    margin: 0 0 100px 100px;
+    padding: 15px 100px;
+    cursor: pointer;
+}
+
+.content2 {
+    display: flex;
+    margin-top: 10px;
+    padding: 50px;
+    background-image: linear-gradient(150deg, #ffff004d, #efbac3);
+}
+
+.left2 {
+    display: inline-flex;
+    flex: 1;
+}
+
+.image12 {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.image3 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.image12 img {
+    height: 250px;
+    width: 300px;
+    padding: 5px 10px;
+}
+
+.image3 img {
+    height: 500px;
+    width: 300px;
+    padding: 5px 10px;
+}
+
+.right2 {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 100px 0px 100px 20px;
+    padding: 30px;
+    background-color: #FF6B6B;
+}
+
+.right2 h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.right2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.content2 button {
+    font-family: sans-serif;
+    font-size: 18px;
+    float: left;
+    background: transparent;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content2 button img {
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
